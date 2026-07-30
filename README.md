@@ -13,6 +13,16 @@
 - **自定义控件** — 状态按钮（Normal/Hover/Pressed 六态切换）、动画绘制控件等
 - **QSS 样式表** — 统一的扁平化现代 UI 风格
 
+## 演示截图
+
+### 图片浏览
+
+<p align="center">
+  <img src="screenshots/album_with_photos.png" alt="Album 图片浏览" width="800">
+  <br>
+  <em>打开 mayday 项目后，左侧项目树展示所有图片，双击 1.jpg 在右侧浏览</em>
+</p>
+
 ## 技术栈
 
 | 类别 | 技术 |
@@ -101,6 +111,8 @@ album/
 ├── icon/                      # 图标资源 (28 个)
 ├── music/                     # 背景音乐
 ├── album/                     # 示例图片
+├── screenshots/               # 演示截图
+│   └── album_with_photos.png  # 程序运行截图（mayday 素材）
 └── convert_to_docx.py         # 辅助工具: Markdown 转 Word
 ```
 
