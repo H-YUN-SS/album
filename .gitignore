@@ -1,0 +1,112 @@
+# ============================
+# C++ / Qt / Qt Creator
+# ============================
+
+# --- Qt Creator user-specific files ---
+*.user
+*.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc.depends
+*.autosave
+
+# --- Qt Creator project settings (local) ---
+*.cflags
+*.cxxflags
+*.creator.user
+*.files
+*.includes
+*.config
+
+# --- qmake generated files ---
+Makefile
+Makefile.Debug
+Makefile.Release
+*.Debug
+*.Release
+object_script.*
+
+# --- Build output directories ---
+build/
+debug/
+release/
+*-Debug/
+*-Release/
+shadow-build*/
+
+# --- Object files and generated sources ---
+*.o
+*.obj
+*.obj.*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+*.rcc
+
+# --- Compiled binaries ---
+*.exe
+*.app
+*.out
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+
+# ============================
+# IDE / Editor
+# ============================
+
+# --- Qt Creator ---
+*.pro.user
+*.pro.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+
+# --- Visual Studio ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pdb
+*.ilk
+*.idb
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- CLion ---
+.idea/
+cmake-build-*/
+
+# --- Other editors ---
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Python (convert_to_docx.py deps)
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ============================
+# OS / Misc
+# ============================
+*.log
+*.tmp
+*.bak
+*.cache
+*.orig
