@@ -110,3 +110,6 @@ env/
 *.bak
 *.cache
 *.orig
+
+# WorkBuddy project memory
+.workbuddy/
