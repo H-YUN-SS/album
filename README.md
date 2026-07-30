@@ -13,25 +13,6 @@
 - **自定义控件** — 状态按钮（Normal/Hover/Pressed 六态切换）、动画绘制控件等
 - **QSS 样式表** — 统一的扁平化现代 UI 风格
 
-## 演示截图
-
-> 以下为使用本相册管理器导入并浏览的真实素材示例（以五月天 Mayday 照片为例），展示了图片在主界面和幻灯片中的展示效果。
-
-### 精选展示
-
-<p align="center">
-  <img src="screenshots/demo_01.jpg" alt="主展示图" width="520">
-  <br>
-  <em>主打展示图：导入项目后在 PicShow 中浏览的高清图片</em>
-</p>
-
-### 相册预览
-
-| 浏览视图 | 现场照片 | 幻灯片素材 |
-|:---:|:---:|:---:|
-| <img src="screenshots/demo_06.png" width="240"> | <img src="screenshots/demo_10.png" width="240"> | <img src="screenshots/demo_12.png" width="240"> |
-| 项目树中双击即可在右侧查看 | 支持上一张/下一张快速切换 | 右键项目节点可进入全屏幻灯片播放 |
-
 ## 技术栈
 
 | 类别 | 技术 |
@@ -120,11 +101,6 @@ album/
 ├── icon/                      # 图标资源 (28 个)
 ├── music/                     # 背景音乐
 ├── album/                     # 示例图片
-├── screenshots/               # 演示截图
-│   ├── demo_01.jpg            # 主打展示图
-│   ├── demo_06.png            # 相册预览图 1
-│   ├── demo_10.png            # 相册预览图 2
-│   └── demo_12.png            # 相册预览图 3
 └── convert_to_docx.py         # 辅助工具: Markdown 转 Word
 ```
 
